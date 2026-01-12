@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-navy: #0F172A;
+    --color-orange: #F97316;
+    --font-sans: Montserrat, sans-serif;
+    --font-quebec: "Quebec Serial", sans-serif;
+}
+
+@font-face {
+    font-family: 'Quebec Serial';
+    src: url('./assets/quebec-serial-heavy-italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@layer utilities {
+    .btn-cta:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 15px -3px rgba(249, 115, 22, 0.3);
+    }
+}
