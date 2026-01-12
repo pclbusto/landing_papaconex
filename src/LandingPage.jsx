@@ -56,12 +56,12 @@ const LandingPage = () => {
           </div>
 
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight font-quebec">
-            La nueva forma de comercializar la papa en Argentina
+            INNOVACIÓN QUE ACERCA, TRANSPARENCIA QUE RINDE
           </h1>
           <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-            La primera plataforma digital que conecta directamente a productores, compradores y transportistas.
+            La primer plataforma digital que conecta de manera eficiente a productores, compradores y transportista.
             <br />
-            <strong>Innovación que acerca, transparencia que rinde.</strong>
+            <strong>PapaConex, la nueva forma de comercializar la papa en Argentina</strong>
           </p>
 
           {/* CTA Principal */}
