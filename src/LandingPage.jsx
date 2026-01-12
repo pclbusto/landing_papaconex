@@ -180,6 +180,9 @@ const LandingPage = () => {
       <footer className="bg-navy text-gray-400 py-8 text-center text-sm">
         <div className="container mx-auto px-4">
           <p>© {new Date().getFullYear()} PapaConex. Todos los derechos reservados.</p>
+          <p className="mt-2">
+            📧 <a href="mailto:contacto@papaconex.com" className="text-celeste hover:text-white transition">contacto@papaconex.com</a>
+          </p>
         </div>
       </footer>
     </div>
