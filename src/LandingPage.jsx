@@ -56,7 +56,7 @@ const LandingPage = () => {
           </div>
 
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight font-quebec">
-            INNOVACIÓN QUE ACERCA, TRANSPARENCIA QUE RINDE
+            Innovación que acerca, transparencia que rinde
           </h1>
           <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
             La primer plataforma digital que conecta de manera eficiente a productores, compradores y transportista.
