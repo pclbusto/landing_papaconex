@@ -3,7 +3,7 @@
 
 @theme {
     --color-navy: #0F172A;
-    --color-orange: #F97316;
+    --color-celeste: #0EA5E9;
     --font-sans: Montserrat, sans-serif;
     --font-quebec: "Quebec Serial", sans-serif;
 }
@@ -13,6 +13,10 @@
     src: url('./assets/quebec-serial-heavy-italic.ttf') format('truetype');
     font-weight: bold;
     font-style: italic;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 @layer utilities {
