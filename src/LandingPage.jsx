@@ -56,10 +56,11 @@ const LandingPage = () => {
           </div>
 
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight font-quebec">
-            <span className="text-white">Innovación que acerca,</span> <br className="hidden md:block" /> <span className="text-celeste">transparencia que rinde</span>
+            La nueva forma de comercializar la papa en Argentina
           </h1>
           <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
             La primera plataforma digital que conecta directamente a productores, compradores y transportistas.
+            <br />
             <strong>Innovación que acerca, transparencia que rinde.</strong>
           </p>
 
