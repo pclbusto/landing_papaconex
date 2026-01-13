@@ -3,7 +3,7 @@ import { Phone, Sprout, Store, Truck, MapPin, ChevronRight, Menu, X } from 'luci
 import logoIcon from './assets/logo.png';
 
 const LandingPage = () => {
-  // PapaConex Landing Page
+  // PapaConex Landing Page - Conectando productores, compradores y transportistas
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
