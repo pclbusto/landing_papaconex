@@ -59,7 +59,7 @@ const LandingPage = () => {
             Innovación que acerca, transparencia que rinde
           </h1>
           <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-            La primer plataforma digital que conecta de manera eficiente a productores, compradores y transportista.
+            La primer plataforma digital que conecta de manera eficiente a productores, compradores y transportista. Busca aumentar la transparencia y el valor económico para todos los actores involucrados.
             <br />
             <strong>PapaConex, la nueva forma de comercializar la papa en Argentina</strong>
           </p>
