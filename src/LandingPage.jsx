@@ -117,29 +117,60 @@ const LandingPage = () => {
         </div>
       </section>
 
-      {/* Contact Form Section */}
+      {/* Contact Form Section with Progress */}
       <section id="registro" className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
             <div className="bg-navy p-8 text-center text-white">
-              <h2 className="text-3xl font-bold mb-2 font-quebec">¡Sumate a la Revolución!</h2>
-              <p className="text-gray-300">Dejanos tus datos y sé parte de los pioneros de PapaConex.</p>
+              <h2 className="text-3xl font-bold mb-4 font-quebec">Estamos ultimando detalles</h2>
+              <p className="text-gray-300 mb-6">
+                Gracias por el interés demostrado en el <strong>Festival de la Papa</strong>. Estamos
+                finalizando las pruebas de seguridad para garantizar tu tranquilidad.
+              </p>
+
+              {/* Progress Bar */}
+              <div className="mb-6">
+                <div className="flex justify-between items-center mb-3">
+                  <span className="text-sm font-semibold text-white">Desarrollo</span>
+                  <span className="text-sm font-semibold text-gray-300">Lanzamiento: Próximamente</span>
+                </div>
+                <div className="w-full bg-white/20 rounded-full h-3 overflow-hidden">
+                  <div className="bg-celeste h-full rounded-full transition-all duration-500" style={{ width: '85%' }}></div>
+                </div>
+              </div>
             </div>
 
-            <iframe name="hidden_iframe" id="hidden_iframe" style={{ display: 'none' }} onLoad={() => {
-              if (window.submitted) {
-                alert("¡Gracias por registrarte! Te contactaremos pronto.");
-                window.location.reload();
-              }
-            }}></iframe>
+            <div className="p-8">
+              <h3 className="text-2xl font-bold text-center text-navy mb-4 font-quebec">¡Sumate a la Revolución!</h3>
+              <p className="text-center text-gray-600 mb-6">Dejanos tus datos y sé parte de los pioneros de PapaConex.</p>
 
-            <form
-              className="p-8 space-y-6"
-              action="https://docs.google.com/forms/d/e/1FAIpQLScL0HT145s8MA-_h2pemATPJhBBYcC8_jXhx8Nast6ARLMv2g/formResponse"
-              method="POST"
-              target="hidden_iframe"
-              onSubmit={() => { window.submitted = true; }}
-            >
+              {/* Promo Badge Animado */}
+              <div className="relative mb-6">
+                <div className="bg-gradient-to-r from-celeste to-blue-400 rounded-xl p-4 shadow-lg">
+                  <div className="flex items-center justify-center gap-3">
+                    <span className="text-3xl animate-bounce">🎁</span>
+                    <div className="text-white">
+                      <p className="font-bold text-lg">¡Regalo de Bienvenida!</p>
+                      <p className="text-sm">Primera operación <strong>SIN CARGO</strong> para fundadores</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <iframe name="hidden_iframe" id="hidden_iframe" style={{ display: 'none' }} onLoad={() => {
+                if (window.submitted) {
+                  alert("¡Gracias por registrarte! Te contactaremos pronto.");
+                  window.location.reload();
+                }
+              }}></iframe>
+
+              <form
+                className="space-y-6"
+                action="https://docs.google.com/forms/d/e/1FAIpQLScL0HT145s8MA-_h2pemATPJhBBYcC8_jXhx8Nast6ARLMv2g/formResponse"
+                method="POST"
+                target="hidden_iframe"
+                onSubmit={() => { window.submitted = true; }}
+              >
 
               <div>
                 <label className="block text-gray-700 font-semibold mb-2">Nombre Completo</label>
@@ -169,10 +200,11 @@ const LandingPage = () => {
                 <textarea name="entry.819843279" className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:border-celeste focus:ring-2 focus:ring-celeste/20 outline-none transition" rows="3" placeholder="Contanos de dónde sos o qué necesitás..."></textarea>
               </div>
 
-              <button type="submit" className="w-full btn-cta bg-celeste text-white font-bold py-4 rounded-lg text-lg hover:bg-sky-600 transition flex items-center justify-center gap-2">
-                Enviar mis datos <ChevronRight size={20} />
-              </button>
-            </form>
+                <button type="submit" className="w-full btn-cta bg-celeste text-white font-bold py-4 rounded-lg text-lg hover:bg-sky-600 transition flex items-center justify-center gap-2">
+                  Enviar mis datos <ChevronRight size={20} />
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
