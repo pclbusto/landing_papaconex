@@ -60,7 +60,7 @@ const LandingPage = () => {
             Innovación que acerca, transparencia que rinde
           </h1>
           <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-            La primer plataforma digital que conecta de manera eficiente a productores, compradores y transportista. Busca aumentar la transparencia y el valor económico para todos los actores involucrados.
+            PapaConex es la primer plataforma digital que conecta de manera eficiente a productores, compradores y transportistas. Busca aumentar la transparencia y el valor económico para todos los actores involucrados.
             <br />
             <strong>PapaConex, la nueva forma de comercializar la papa en Argentina</strong>
           </p>
@@ -130,12 +130,12 @@ const LandingPage = () => {
 
               {/* Progress Bar */}
               <div className="mb-6">
-                <div className="flex justify-between items-center mb-3">
-                  <span className="text-sm font-semibold text-white">Desarrollo</span>
-                  <span className="text-sm font-semibold text-gray-300">Lanzamiento: Próximamente</span>
-                </div>
                 <div className="w-full bg-white/20 rounded-full h-3 overflow-hidden">
                   <div className="bg-celeste h-full rounded-full transition-all duration-500" style={{ width: '85%' }}></div>
+                </div>
+                <div className="flex justify-between items-center mt-2">
+                  <span className="text-xs text-gray-400">Inicio</span>
+                  <span className="text-xs text-gray-400">Lanzamiento: Próximamente</span>
                 </div>
               </div>
             </div>
@@ -143,19 +143,6 @@ const LandingPage = () => {
             <div className="p-8">
               <h3 className="text-2xl font-bold text-center text-navy mb-4 font-quebec">¡Sumate a la Revolución!</h3>
               <p className="text-center text-gray-600 mb-6">Dejanos tus datos y sé parte de los pioneros de PapaConex.</p>
-
-              {/* Promo Badge Animado */}
-              <div className="relative mb-6">
-                <div className="bg-gradient-to-r from-celeste to-blue-400 rounded-xl p-4 shadow-lg">
-                  <div className="flex items-center justify-center gap-3">
-                    <span className="text-3xl animate-bounce">🎁</span>
-                    <div className="text-white">
-                      <p className="font-bold text-lg">¡Regalo de Bienvenida!</p>
-                      <p className="text-sm">Primera operación <strong>SIN CARGO</strong> para fundadores</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
               <iframe name="hidden_iframe" id="hidden_iframe" style={{ display: 'none' }} onLoad={() => {
                 if (window.submitted) {
