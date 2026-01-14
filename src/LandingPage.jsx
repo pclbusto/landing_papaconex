@@ -60,7 +60,7 @@ const LandingPage = () => {
             Innovación que acerca, transparencia que rinde
           </h1>
           <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto leading-relaxed">
-            PapaConex es la primer plataforma digital que conecta de manera eficiente a productores, compradores y transportistas. Busca aumentar la transparencia y el valor económico para todos los actores involucrados.
+            <strong>PapaConex</strong>, es la primer plataforma digital que conecta de manera eficiente a productores, compradores y transportistas. Busca aumentar la transparencia y el valor económico para todos los actores involucrados.
             <br />
             <strong>PapaConex, la nueva forma de comercializar la papa en Argentina</strong>
           </p>
@@ -78,7 +78,7 @@ const LandingPage = () => {
       </header>
 
       {/* Valor Segmentado */}
-      <section id="como-funciona" className="py-16 -mt-10 relative z-20">
+      <section id="como-funciona" className="pt-16 pb-6 md:py-16 -mt-10 relative z-20">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Productor */}
@@ -118,7 +118,7 @@ const LandingPage = () => {
       </section>
 
       {/* Contact Form Section with Progress */}
-      <section id="registro" className="py-20 bg-gray-50">
+      <section id="registro" className="pt-6 pb-20 md:py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-2xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden border border-gray-100">
             <div className="bg-navy p-8 text-center text-white">
