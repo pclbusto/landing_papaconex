@@ -141,7 +141,8 @@ const LandingPage = () => {
             </div>
 
             <div className="p-8">
-              <h3 className="text-2xl font-bold text-center text-navy mb-4 font-quebec">¡Sumate a la Revolución!</h3>
+              <h3 className="text-2xl font-bold text-center text-navy mb-2 font-quebec">¡Sumate a la Revolución!</h3>
+              <p className="text-center text-navy font-bold mb-4">Entrá ahora para ser el primero en operar con costos más bajos y reglas claras</p>
               <p className="text-center text-gray-600 mb-6">Dejanos tus datos y sé parte de los pioneros de PapaConex.</p>
 
               <iframe name="hidden_iframe" id="hidden_iframe" style={{ display: 'none' }} onLoad={() => {
